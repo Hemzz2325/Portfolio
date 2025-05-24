@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(33, 2, 61);
+    color: white;
+    font-family: 'poppins',sans-serif;
+    
+}
+nav{
+    background-color: rgb(56, 3, 101);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+nav ul { 
+    display: flex;  
+    align-items: center;
+}
+li{
+    margin: 10px;
+    list-style: none;
+}
+.left{
+    font-size: 1.8rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(227, 207, 245);
+    font-size: 1.1rem;
+}
+.first{
+    display: flex;
+    margin: 20px ;
+    justify-content: space-around;
+    height: 70vh;
+}
+.lefty{
+    width: 30%;
+    margin-top: 100px;
+    font-size: 2.5rem;
+    margin-left: 8%;
+}
+.righty{
+width: 40%;
+}
+.righty img{
+    width: 70%;
+    margin-top: 10%;
+}
+.exp{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+main hr{
+    background-color: rgb(137, 26, 185);
+    border: 0;
+    height: 1.4px;
+    margin: 47px 84px;
+}
+.purple{
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+
+}
+.second{
+    max-width: 80%;
+    margin: auto;
+    height: 80vh;
+}
+.second h1{
+    font-size: 2rem;
+}
+.second .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 36px 0;
+    display: flex;
+}
+.second .ver{
+    height: 90px;
+    width: 2px;
+    background:white;
+    margin: 0 100px;
+    padding: auto;
+
+}
+.second .skills{
+    position: relative;
+    margin: 93px 49px;
+}
+.second.desc{
+    position: relative;
+    width: 10%;
+}
